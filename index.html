@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Glasses | ZÉ Glasses</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__col-left">
+            <button type="button" class="btn-simple btn-menu">
+                <img src="./assets/svgs/icon-burger.svg" alt="Menu button">
+            </button>
+        </div>
+        <a href="#" class="header__col-center" title="Home button"><img src="./assets/svgs/logo.svg" class="header__logo"></a>
+        <div class="header__col-right">
+            <div class="header__links">
+                <ul class="header__links-list">
+                    <li class="header__links-item">
+                        <a href="#" class="btn-simple header__links-link header__links-link--active" title="Search"><span class="header__links-text">Search</span><span class="header__links-icon"><img src="./assets/svgs/icon-search.svg" class="search" alt="Search"></span></a>
+                    </li>
+                    <li class="header__links-item header__links-item--login">
+                        <a href="#" class="btn-simple header__links-link" title="Login"><span class="header__links-text">Login</span></a>
+                    </li>
+                    <li class="header__links-item">
+                        <a href="#" class="btn-simple header__links-link" title="Cart"><img src="./assets/svgs/icon-cart.svg" alt="Cart Button"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="options-content">
+                <h1 class="options-content__title">GLASSES</h1>
+                <div class="filter-options">
+                    <p class="filter-options__title">Color:</p>
+                    <ul class="filter-options__list">
+                        <li class="filter-options__item">
+                            <input type="checkbox" value="black">
+                                <span class="filter-options__square"></span>
+                                <label for="black">Black</label>
+                            </input>
+                        </li>
+                        <li class="filter-options__item">
+                            <input type="checkbox" value="blue">
+                                <span class="filter-options__square"></span>
+                                <label for="blue">Blue</label>
+                            </input>
+                        </li>
+                        <li class="filter-options__item">
+                            <input type="checkbox" value="red">
+                                <span class="filter-options__square"></span>
+                                <label for="red">Red</label>
+                            </input>
+                        </li>   
+                    </ul>
+                </div>
+            </div>
+            <div class="content-products">
+                <article class="product" data-color="silver">
+                    <a class="product__link" href="#">
+                        <img class="product__image" src="./assets/images/alex-iby-XhMSz5I1kn8-unsplash.jpg" alt="Brioni">
+                    </a>
+                    <div class="product__details">
+                        <h2 class="product__title">Brioni</h2>
+                        <p class="product__description">Brioni vintage inspired black sunglasses</p>
+                        <p class="product__ref">Model ref: 60BRI</p>
+                        <p class="product__price">320,00 <span class="product__currency">EUR</span></p>
+                    </div>
+                </article>
+                <article class="product" data-color="red">
+                    <a class="product__link" href="#">
+                        <img class="product__image" src="./assets/images/woman-gc313e4feb_1920.jpg" alt="Brioni">
+                    </a>
+                    <div class="product-details">
+                        <h2 class="product__title">Brioni</h2>
+                        <p class="product__description">Brioni squared sunglasses made with acetate and titanium</p>
+                        <p class="product__ref">Model ref: 48BRI</p>
+                        <p class="product__price">490,00 <span class="product__currency">EUR</span></p>
+                    </div>
+                </article>
+                <article class="product" data-color="brown">
+                    <a class="product__link" href="#">
+                        <img class="product__image" src="./assets/images/woman-ga205e16f2_1920.jpg" alt="Brioni">
+                    </a>
+                    <div class="product-details">
+                        <h2 class="product__title">Brioni</h2>
+                        <p class="product__description">Brioni silver green sunglasses</p>
+                        <p class="product__ref">Model ref: 59BRI</p>
+                        <p class="product__price">460,00 <span class="product__currency">EUR</span></p>
+                    </div>
+                </article>
+                <article class="product" data-color="silver">
+                    <a class="product__link" href="#">
+                        <img class="product__image" src="./assets/images/woman-ga29a8ad14_1920.jpg" alt="Brioni">
+                    </a>
+                    <div class="product-details">
+                        <h2 class="product__title">Brioni</h2>
+                        <p class="product__description">Brioni pilot light havana sunglasses</p>
+                        <p class="product__ref">Model ref: 53BRI</p>
+                        <p class="product__price">320,00 <span class="product__currency">EUR</span></p>
+                    </div>
+                </article>
+                <article class="product" data-color="brown">
+                    <a class="product__link" href="#">
+                        <img class="product__image" src="./assets/images/sunset-g5519dda2a_1920.jpg" alt="Brioni">
+                    </a>
+                    <div class="product-details">
+                        <h2 class="product__title">Brioni</h2>
+                        <p class="product__description">Brioni rectangular brown and green sunglasses</p>
+                        <p class="product__ref">Model ref: 55BRI</p>
+                        <p class="product__price">320,00 <span class="product__currency">EUR</span></p>
+                    </div>
+                </article>
+                <article class="product" data-color="blue">
+                    <a class="product__link" href="#">
+                        <img class="product__image" src="./assets/images/model-gcecd4b72f_1920.jpg" alt="Brioni">
+                    </a>
+                    <div class="product-details">
+                        <h2 class="product__title">Brioni</h2>
+                        <p class="product__description">Brioni squared vintage look black acetate sunglasses</p>
+                        <p class="product__ref">Model ref: 56BRI</p>
+                        <p class="product__price">350,00 <span class="product__currency">EUR</span></p>
+                    </div>
+                </article>
+                <article class="product" data-color="black">
+                    <a class="product__link" href="#">
+                        <img class="product__image" src="./assets/images/prince-akachi-4Yv84VgQkRM-unsplash.jpg" alt="Brioni">
+                    </a>
+                    <div class="product-details">
+                        <h2 class="product__title">Brioni</h2>
+                        <p class="product__description">Brioni titanium silver grey sunglasses</p>
+                        <p class="product__ref">Model ref: 58BRI</p>
+                        <p class="product__price">460,00 <span class="product__currency">EUR</span></p>
+                    </div>
+                </article>
+                <article class="product" data-color="black">
+                    <a class="product__link" href="#">
+                        <img class="product__image" src="./assets/images/jonathan-borba-reiwBhNJQS0-unsplash.jpg" alt="Brioni">
+                    </a>
+                    <div class="product-details">
+                        <h2 class="product__title">Brioni</h2>
+                        <p class="product__description">Brioni rectangular oversize havana acetate sunglasses</p>
+                        <p class="product__ref">Model ref: 54BRI</p>
+                        <p class="product__price">320,00 <span class="product__currency">EUR</span></p>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+    <script src="./js/filter.js" type="text/javascript"></script>
+</body>
+</html>
